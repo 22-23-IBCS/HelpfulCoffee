@@ -3,8 +3,13 @@ def main():
     drink = {"Boba" : 6.69,
              "Mojito" : 10.00,
              "Orange Juice" : 3.5,
-             "Coke" : 2.5,
-             "Cappuccino" : 4.89}
+             "Coke" : 3.5,
+             "Cappuccino" : 4.89,
+            "Fanta": 2.5,
+             "Latte": 4.0,
+             "Red Bull":3.0,
+             "Lemonade": 3.0,
+             "Strawberry Lemonade": 3.2}
 
     print(list(drink.keys()))
     request = input("Which drink would you like to buy?\n")
